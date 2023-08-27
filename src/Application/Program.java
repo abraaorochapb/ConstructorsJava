@@ -30,7 +30,7 @@ public class Program {
             System.out.print("Quantity to be added: ");
             int quantity = sc.nextInt();
             product1.addItem(quantity);
-            System.out.println("Products in stock: " + product1.stock);
+            System.out.println("Products in stock: " + product1.getStock());
             System.out.println("Total value in stock: " + product1.totalValue());
         }
 
@@ -40,7 +40,7 @@ public class Program {
             System.out.print("Quantity to be removed: ");
             int quantity = sc.nextInt();
             product1.removeItem(quantity);
-            System.out.println("Products in stock: " + product1.stock);
+            System.out.println("Products in stock: " + product1.getStock());
             System.out.println("Total value in stock: " + product1.totalValue());
         }
 
