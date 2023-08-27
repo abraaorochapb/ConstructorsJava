@@ -5,6 +5,7 @@ public class Product {
     public double price;
     public int stock;
 
+    // Sobrecarga = Criar mais de um construtor para uma classe
     public Product(String name, double price, int stock){
         this.name = name;
         this.price = price;
